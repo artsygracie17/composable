@@ -1,0 +1,221 @@
+	<!DOCTYPE html>
+
+	<html>
+
+	<head> 
+		<meta charset="utf-8">
+		<title> discover </title>
+
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+		<!-- <link rel="stylesheet" href="../bootstrap.min.css"> -->
+		<link rel="stylesheet" href="../bootstrap.css">
+
+		<link rel='stylesheet' href='discover.css'>
+
+		<!--<script type='text/javascript' src='http://code.jquery.com/jquery-2.2.1.min.js'></script>-->
+		<script type='text/javascript' src='../jquery.min.js'></script>
+		<script type='text/javascript' src='discover.js'></script>
+	</head>
+
+	<body>
+		<div class='header'>
+			<img src='../logo.gif'>
+			<div id='logout'><a href='#'>
+				logout<span class='glyphicon glyphicon-chevron-right' aria-hidden='true'></span></a></div>
+			<div class='icon'>     </div>
+			<div class='icon'>
+				<a href='#'>
+					<span class='glyphicon glyphicon-expand' aria-hidden='true'></span>
+					<p> tutorials </p></a>
+			</div>
+			<div class='icon'>
+				<a href='../discover/discover.html'>
+					<span class='glyphicon glyphicon-globe' aria-hidden='true'></span>
+					<p> discover </p></a>
+			</div>
+			<div class='icon'>
+				<a href='#'>
+					<span class='glyphicon glyphicon-th-large' aria-hidden='true'></span>
+					<p> my boards </p></a>
+			</div>
+			<div class='icon'>
+				<a href='../myapps/myapps.html'>
+					<span class='glyphicon glyphicon-briefcase' aria-hidden='true'></span>
+					<p> my apps </p></a>
+			</div>
+			<div class='icon'>
+				<a href='#'>
+					<span class='glyphicon glyphicon-user' aria-hidden='true'></span>
+					<p> my groups </p></a>
+			</div>
+		</div>
+
+		<div class='row'>
+<!-- 			<div class='col-xs-12' id='word-filter'>
+				<div class="input-group">
+					<span class="input-group-addon" id="basic-addon1">Results for</span>
+					<input type="text" class="form-control" placeholder="Enter search words" aria-describedby="basic-addon1">
+					<div class='input-group-btn'>
+						<button id='search' class='btn btn-primary' type='button'> Search </button>
+					</div>
+				</div>
+			</div> -->
+			<br><br><br><br>
+		</div>
+		<br>
+
+		<div class='row'>
+			<div id='sidebar' class='col-xs-2'>
+<!-- 				<h4> Quick Links: </h4>
+				<div class='btn-group-vertical' role='group'>
+					<button id='myapps' class='btn btn-default' type='button'>My Apps</button>
+					<button id='mygroups' class='btn btn-default' type='button'>My Groups</button>
+					<button id='myboards' class='btn btn-default' type='button'>My Boards</button>
+				</div> -->
+				<br><br><br>
+				<div id='filter'>
+					<h4> Filter by: </h4>
+					<ul class="nav nav-pills nav-stacked">
+
+						<li role="presentation" class="active"><a href="#">Type</a></li>
+						<li id='author' role="presentation"><a href="#">Author</a></li>
+						<li id='favourite' role="presentation"><a href="#">Favourite</a></li>
+						<li id='rating' role="presentation"><a href="#">Rating</a></li>
+						<li id='module' role="presentation"><a href="#">Module</a></li>
+						<li id='runappid' role="presentation"><a href="#">Run App ID</a></li>
+						<li><div class="input-group">
+							<input type="text" class="form-control" placeholder="key words">
+							<div class='input-group-btn'>
+								<button id='search' class='btn btn-default' type='button'>Go!</button>
+							</div>
+						</div></li>
+					</ul>
+				</div> <!--filter-->
+
+			</div>
+
+			<div class='results' class='col-xs-10'>
+				<h2> what are people making? </h2>
+				<div id='wrapper'>
+					<div class='app'>
+						<img src='https://cloud.composableanalytics.com/services/ThumbnailService.svc/GetThumbnail?size=medium&resourceId=17'>
+
+						<div class='info'>
+							<a class="result-link" href="AppView.aspx?appId=17">Bring my umbrella to work?</a>
+							<p class="result-creator">Created by <a href="UserView.aspx?username=lars">lars</a> on October 12th, 2013</p>
+						</div>
+
+						<div class='app-hover'>
+						<br>
+							<a class="btn btn-default" style='letter-spacing: 1px' href="#" role="button">View in Designer</a><br><br>
+							<a class="btn btn-default" style='letter-spacing: 1px' href="#" role="button">Run</a><br><br>
+							<a class="btn btn-default" style='letter-spacing: 1px' href="#" role="button">Clone</a>
+						</div>
+					</div>
+				</div>
+
+				<div id='wrapper'>
+					<div class='app'>
+						<img src='https://cloud.composableanalytics.com/services/ThumbnailService.svc/GetThumbnail?size=medium&resourceId=17'>
+
+						<div class='info'>
+							<a class="result-link" href="AppView.aspx?appId=17">Bring my umbrella to work?</a>
+							<p class="result-creator">Created by <a href="UserView.aspx?username=lars">lars</a> on October 12th, 2013</p>
+						</div>
+
+						<div class='app-hover'>
+						<br>
+							<a class="btn btn-default" style='letter-spacing: 1px' href="#" role="button">View in Designer</a><br><br>
+							<a class="btn btn-default" style='letter-spacing: 1px' href="#" role="button">Run</a><br><br>
+							<a class="btn btn-default" style='letter-spacing: 1px' href="#" role="button">Clone</a>
+						</div>
+					</div>
+				</div>
+
+				<div id='wrapper'>
+					<div class='app'>
+						<img src='https://cloud.composableanalytics.com/services/ThumbnailService.svc/GetThumbnail?size=medium&resourceId=17'>
+
+						<div class='info'>
+							<a class="result-link" href="AppView.aspx?appId=17">Bring my umbrella to work?</a>
+							<p class="result-creator">Created by <a href="UserView.aspx?username=lars">lars</a> on October 12th, 2013</p>
+						</div>
+
+						<div class='app-hover'>
+						<br>
+							<a class="btn btn-default" style='letter-spacing: 1px' href="#" role="button">View in Designer</a><br><br>
+							<a class="btn btn-default" style='letter-spacing: 1px' href="#" role="button">Run</a><br><br>
+							<a class="btn btn-default" style='letter-spacing: 1px' href="#" role="button">Clone</a>
+						</div>
+					</div>
+				</div>
+
+				<div id='wrapper'>
+					<div class='app'>
+						<img src='https://cloud.composableanalytics.com/services/ThumbnailService.svc/GetThumbnail?size=medium&resourceId=17'>
+
+						<div class='info'>
+							<a class="result-link" href="AppView.aspx?appId=17">Bring my umbrella to work?</a>
+							<p class="result-creator">Created by <a href="UserView.aspx?username=lars">lars</a> on October 12th, 2013</p>
+						</div>
+
+						<div class='app-hover'>
+						<br>
+							<a class="btn btn-default" style='letter-spacing: 1px' href="#" role="button">View in Designer</a><br><br>
+							<a class="btn btn-default" style='letter-spacing: 1px' href="#" role="button">Run</a><br><br>
+							<a class="btn btn-default" style='letter-spacing: 1px' href="#" role="button">Clone</a>
+						</div>
+					</div>
+				</div>
+
+				<div id='wrapper'>
+					<div class='app'>
+						<img src='https://cloud.composableanalytics.com/services/ThumbnailService.svc/GetThumbnail?size=medium&resourceId=17'>
+
+						<div class='info'>
+							<a class="result-link" href="AppView.aspx?appId=17">Bring my umbrella to work?</a>
+							<p class="result-creator">Created by <a href="UserView.aspx?username=lars">lars</a> on October 12th, 2013</p>
+						</div>
+
+						<div class='app-hover'>
+						<br>
+							<a class="btn btn-default" style='letter-spacing: 1px' href="#" role="button">View in Designer</a><br><br>
+							<a class="btn btn-default" style='letter-spacing: 1px' href="#" role="button">Run</a><br><br>
+							<a class="btn btn-default" style='letter-spacing: 1px' href="#" role="button">Clone</a>
+						</div>
+					</div>
+				</div>
+
+				<div id='wrapper'>
+					<div class='app'>
+						<img src='https://cloud.composableanalytics.com/services/ThumbnailService.svc/GetThumbnail?size=medium&resourceId=17'>
+
+						<div class='info'>
+							<a class="result-link" href="AppView.aspx?appId=17">Bring my umbrella to work?</a>
+							<p class="result-creator">Created by <a href="UserView.aspx?username=lars">lars</a> on October 12th, 2013</p>
+						</div>
+
+						<div class='app-hover'>
+						<br>
+							<a class="btn btn-default" style='letter-spacing: 1px' href="#" role="button">View in Designer</a><br><br>
+							<a class="btn btn-default" style='letter-spacing: 1px' href="#" role="button">Run</a><br><br>
+							<a class="btn btn-default" style='letter-spacing: 1px' href="#" role="button">Clone</a>
+						</div>
+					</div>
+				</div>
+
+			</div> <!--results-->
+		</div> <!--row-->
+
+
+		<div class='footer'>
+			<p> Composable Analytics, Inc. </p>
+			<p id='love'>made with<span class='glyphicon glyphicon-heart' aria-hidden='true'></span>in Cambridge, MA</p>
+		</div>
+
+
+
+
+	</body>
+	</html>
