@@ -15,7 +15,7 @@
 
         <!--<script type='text/javascript' src='http://code.jquery.com/jquery-2.2.1.min.js'></script>-->
         <script type='text/javascript' src='../jquery.min.js'></script>
-        <script type='text/javascript' src='discover.js'></script>
+        <script type='text/javascript' src='appview.js'></script>
     </head>
 
     <body>
@@ -53,12 +53,88 @@
             </div>
         </div>
 
-        <h1> App Preview </h1>
+        <!-- <div class='app-preview'> -->
+            <h1> App Preview </h1>
+            <div class='container'>
+                <div class='row'>
+                    <div class='col-md-6'>
+                        <!-- <img src='https://cloud.composableanalytics.com/services/ThumbnailService.svc/GetThumbnail?size=medium&resourceId=17'> -->
+                        <img src='https://cloud.composableanalytics.com/services/ThumbnailService.svc/GetThumbnail?size=medium&resourceId=17'>
+                        <div class='info'>
+                            <a class="result-link" href="#">Bring my umbrella to work?</a>
+                            <div class='rating'>
+                                <p><span class='glyphicon glyphicon-star'></span>
+                                <span class='glyphicon glyphicon-star'></span>
+                                <span class='glyphicon glyphicon-star'></span>
+                                <span class='glyphicon glyphicon-star'></span>
+                                <span class='glyphicon glyphicon-star-empty'></span>
+                                (2 reviews)</p>
+                            </div>
+                            <p> Clone Count: 3 </p>
+                            <p class="result-creator">Created by <a href="#">lars</a><p>
+                        </div>
+                    </div>
 
-        <div>
-            <img src='https://cloud.composableanalytics.com/services/ThumbnailService.svc/GetThumbnail?size=medium&resourceId=17'>
+                    <div class='col-md-2' id='buttons'>
+                        <ul class="nav nav-pills nav-stacked">
 
-        </div>
+                        <li role="presentation" class="active"><button type='button' class='btn btn-default'>Designer</button></li>
+                        <li role="presentation" class="active"><button type='button' class='btn btn-default'>Clone</button></li>
+                        <li role="presentation" class="active"><button type='button' class='btn btn-default'>Review</button></li>
+                        <li role="presentation" class="active"><button type='button' class='btn btn-default'>Access Control</button></li>
+                        <li role="presentation" class="active"><button type='button' class='btn btn-default'>Run</button></li>
+                        <li role="presentation" class="active"><button type='button' class='btn btn-default'>Runs</button></li>
+
+
+                        
+                    </ul>
+                    </div>
+
+                    <div class='col-md-4'>
+                        <h3> Activity Feed </h3>
+
+                        <div class='act-feed'>
+                            <div class='feed'>
+                                <div class='prof-img'></div>
+                                <p><a href='#'>lars</a> produced a new <a href='#'>run</a> from the app <a href='#'>Bring my umbrella to work?</a><p>
+                                <p> March 24th, 2016 </p>
+                            </div>
+                            <div class='feed'>
+                                <div class='prof-img'></div>
+                                <p><a href='#'>lars</a> produced a new <a href='#'>run</a> from the app <a href='#'>Bring my umbrella to work?</a><p>
+                                <p> March 24th, 2016 </p>
+                            </div>
+                            <div class='feed'>
+                                <div class='prof-img'></div>
+                                <p><a href='#'>lars</a> produced a new <a href='#'>run</a> from the app <a href='#'>Bring my umbrella to work?</a><p>
+                                <p> March 24th, 2016 </p>
+                            </div>
+                            <div class='feed'>
+                                <div class='prof-img'></div>
+                                <p><a href='#'>lars</a> produced a new <a href='#'>run</a> from the app <a href='#'>Bring my umbrella to work?</a><p>
+                                <p> March 24th, 2016 </p>
+                            </div>
+                            <div class='feed'>
+                                <div class='prof-img'></div>
+                                <p><a href='#'>lars</a> produced a new <a href='#'>run</a> from the app <a href='#'>Bring my umbrella to work?</a><p>
+                                <p> March 24th, 2016 </p>
+                            </div>
+                            <div class='feed'>
+                                <div class='prof-img'></div>
+                                <p><a href='#'>lars</a> produced a new <a href='#'>run</a> from the app <a href='#'>Bring my umbrella to work?</a><p>
+                                <p> March 24th, 2016 </p>
+                            </div>
+                            <div class='feed'>
+                                <div class='prof-img'></div>
+                                <p><a href='#'>lars</a> produced a new <a href='#'>run</a> from the app <a href='#'>Bring my umbrella to work?</a><p>
+                                <p> March 24th, 2016 </p>
+                            </div>
+                        </div>
+                    </div>
+                </div> <!--row-->
+            </div> <!--container-->
+
+        <!-- </div> -->
 
     </body>
 

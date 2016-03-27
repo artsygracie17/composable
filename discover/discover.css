@@ -89,7 +89,7 @@ h4 {color: #fff; font-weight: lighter; letter-spacing: 2px;}
 
 
 .row .col-sm-9 {float: right;} /* results */
-h1 {font-weight: 300; letter-spacing: 1px; }
+h1 {letter-spacing: 1px; }
 #wrapper {
   position: relative;
   width: 220px;
