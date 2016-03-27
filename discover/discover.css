@@ -80,15 +80,16 @@ body{
 #filter li a {letter-spacing: 1px;}
 .input-group .form-control, .input-group-btn button {border-radius: 0px;}
 h4 {color: #fff; font-weight: lighter; letter-spacing: 2px;}
-.nav-pills > li.active > a {border-radius: 0px;}
-.nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus
-{border-radius: 0px; 
-}
+.nav-pills > li.active > a,
+.nav-pills > li > a:hover 
+{border-radius: 0px;}
+
+
 
 
 
 .row .col-sm-9 {float: right;} /* results */
-h1 {font-weight: lighter; letter-spacing: 2px;}
+h1 {font-weight: 300; letter-spacing: 1px; }
 #wrapper {
   position: relative;
   width: 220px;
