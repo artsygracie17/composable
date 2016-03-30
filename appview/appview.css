@@ -37,7 +37,10 @@ body {
   margin: 7px 15px 0px;
   /*1b75bb*/
 }
-
+.col-md-6 > img {
+  border: 1px solid black;
+  padding: 10px;
+}
 /*.app-preview {margin-left: 20px;}*/
 /*.container {
   border: 1px solid red;
@@ -107,7 +110,7 @@ a.result-link {
 }
 h3 {text-align: center;}
 .feed {
-  border-top: 1px solid grey;
+  border: 1px solid grey;
   border-radius: 1px;
   padding: 10px;
   margin: 5px;
